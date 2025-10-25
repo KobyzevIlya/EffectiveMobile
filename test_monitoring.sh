@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -uo pipefail
 
-PROC_NAME="sleep"
+PROC_NAME="test"
 STATE_DIR="/var/lib/test_monitoring"
 STATE_FILE="$STATE_DIR/pids"
 LOG_FILE="/var/log/monitoring.log"
